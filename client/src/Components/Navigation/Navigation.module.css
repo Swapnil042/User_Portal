@@ -1,0 +1,31 @@
+.nav{
+    width: 100%; 
+    border: 2px solid grey;
+    display: flex;
+}
+.navfirst{
+  width: 80%;
+}
+.sideBar{
+    position: fixed;
+    position: relative;
+    float: left;
+    border: 2px solid grey;
+    width: 15%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+.children{
+  position: relative;
+  float: left;
+  width: 75%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.tab{
+  border: 2px solid grey;
+  cursor: pointer;
+}
